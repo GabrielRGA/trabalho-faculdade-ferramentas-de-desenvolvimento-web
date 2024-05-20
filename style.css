@@ -1,0 +1,140 @@
+
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+/* estilização para deicar onde tiver a classe "LInk" sem o traço embaixo do link e com uma cor mais sóbria */
+.links {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+section  a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ddd;
+    background-color: #444;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+}
+
+/* Estilização da aba "Portifólio" para cada projeto */
+.projeto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8f8e8e;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+}
+/* para estilizar na aba "contato" uma parte do fomulário */
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estilizando a aba "SOBRE MIM" */
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.apresentacao__conteudo {
+    max-width: 600px;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.texto {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+/* Estilizando a imagem, para deixar ela com sombra e arredondado */
+.foto-titulo {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
